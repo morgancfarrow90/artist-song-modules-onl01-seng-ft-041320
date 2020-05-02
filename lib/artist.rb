@@ -12,7 +12,6 @@ class Artist
   extend Findable::ClassMethods
   include Paramable::InstanceMethods
 
-
   @@artists = []
 
   def initialize
