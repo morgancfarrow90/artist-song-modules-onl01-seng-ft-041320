@@ -10,7 +10,6 @@ class Song
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
 
-
   @@songs = []
 
   def initialize
